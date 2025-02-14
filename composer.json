@@ -1,0 +1,17 @@
+{
+    "name": "vendor/gymtrack",
+    "description": "Projeto criado para conclusao de curso",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Gymtrack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eliseu"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
