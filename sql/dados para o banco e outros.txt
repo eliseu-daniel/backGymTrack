@@ -1,0 +1,27 @@
+Paciente
+nome, data de nascimento, e-mail, InicioAcompanhamento, FimAcompanhamento, sexo, plano escolhido, pagamento e alergias.
+
+Antropometria
+-> Paciente
+pesoInicial, altura, percentual de gordura corporal, nivel atividade fisica, Objetivo, TMB, GET(gasto energetico total), lesoes
+
+Dieta
+-> paciente (nome, idade, sexo)
+-> antropometria (altura, pesoInicial, objetivo, tmb, get)
+data de inicio, horarios de cada refeição e tipo de dieta, pesoAtual
+
+Treino
+-> paciente (nome, idade, sexo)
+-> antropometria (altura, pesoInicial, objetivo, tmb, get, lesoes)
+data de inicio, tipo de treino, grupo muscular, series, rep, cargaInicial, carga Atual, tempo de descanso, dia da semana, links das execuções.
+
+Grafico
+-> paciente (nome)
+dieta(inicio, pesoInicial, pesoAtual)
+treino(inicio, pesoInicial, pesoAtual, cargaInicial, cargaAtual, repetiçõesInicial/Atual)
+
+Calendário
+-> paciente, prazo do plano, tipo de pagamento
+
+Usuario
+nome, email, senha, tipo de usuario(admin, cliente, paciente), tipo de plano(free ou pago), pagamento, 
